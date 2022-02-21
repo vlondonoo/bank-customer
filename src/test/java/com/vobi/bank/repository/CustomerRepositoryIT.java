@@ -117,7 +117,7 @@ class CustomerRepositoryIT {
 		
 		customers=customerRepository.findAll();
 		
-		customers.forEach(customer->log.info(customer.getName()));		
+		customers.forEach(customer->log.info(customer.getName()));
 		
 		//Assert
 		
